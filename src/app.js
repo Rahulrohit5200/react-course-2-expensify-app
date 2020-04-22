@@ -14,7 +14,7 @@ import { setTextFilter } from './actions/filters';
 
 const store=configurestore();//if we use some other name for store then we have to change in provider also {name of store} at down
 console.log("hello");
-
+console.log("bye");
 const x=()=>{
     return (
         <Provider store={store}>
