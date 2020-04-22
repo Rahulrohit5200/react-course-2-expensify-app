@@ -5,8 +5,7 @@
   "license": "MIT",
   "scripts": {
     "serve": "live-server public/",
-    "build:dev": "webpack",
-    "build:prod": "webpack -p --env production",
+    "build": "webpack",
     "dev-server": "webpack-dev-server",
     "test": "jest"
   },

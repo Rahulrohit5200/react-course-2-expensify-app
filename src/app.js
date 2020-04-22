@@ -12,7 +12,6 @@ import getVisibleExpence from "./selector/expences";
 import { setTextFilter } from './actions/filters';
 
 
-console.log(hello);
 const store=configurestore();//if we use some other name for store then we have to change in provider also {name of store} at down
 
 
